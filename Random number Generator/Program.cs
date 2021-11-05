@@ -32,6 +32,7 @@ namespace Random_number_Generator
                         number_1 = number_2;
                         number_2 = temp;
                     }
+                    number_2++;
                     Console.WriteLine($"The generated number is {rnd.Next(number_1, number_2)}");
                     break;
 
