@@ -1,0 +1,7 @@
+C:\Users\fslongo\source\repos\Random number Generator\Random number Generator\bin\Debug\Random number Generator.exe.config
+C:\Users\fslongo\source\repos\Random number Generator\Random number Generator\bin\Debug\Random number Generator.exe
+C:\Users\fslongo\source\repos\Random number Generator\Random number Generator\bin\Debug\Random number Generator.pdb
+C:\Users\fslongo\source\repos\Random number Generator\Random number Generator\obj\Debug\Random number Generator.csproj.AssemblyReference.cache
+C:\Users\fslongo\source\repos\Random number Generator\Random number Generator\obj\Debug\Random number Generator.csproj.CoreCompileInputs.cache
+C:\Users\fslongo\source\repos\Random number Generator\Random number Generator\obj\Debug\Random number Generator.exe
+C:\Users\fslongo\source\repos\Random number Generator\Random number Generator\obj\Debug\Random number Generator.pdb
