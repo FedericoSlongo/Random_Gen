@@ -5,3 +5,11 @@ C:\Users\fslongo\source\repos\Random number Generator\Random number Generator\ob
 C:\Users\fslongo\source\repos\Random number Generator\Random number Generator\obj\Debug\Random number Generator.csproj.CoreCompileInputs.cache
 C:\Users\fslongo\source\repos\Random number Generator\Random number Generator\obj\Debug\Random number Generator.exe
 C:\Users\fslongo\source\repos\Random number Generator\Random number Generator\obj\Debug\Random number Generator.pdb
+C:\Users\feder\Source\Repos\Random_Gen\Random number Generator\bin\Debug\Random number Generator.exe.config
+C:\Users\feder\Source\Repos\Random_Gen\Random number Generator\bin\Debug\Random number Generator.exe
+C:\Users\feder\Source\Repos\Random_Gen\Random number Generator\bin\Debug\Random number Generator.pdb
+C:\Users\feder\Source\Repos\Random_Gen\Random number Generator\obj\Debug\Random number Generator.csproj.AssemblyReference.cache
+C:\Users\feder\Source\Repos\Random_Gen\Random number Generator\obj\Debug\Random number Generator.csproj.SuggestedBindingRedirects.cache
+C:\Users\feder\Source\Repos\Random_Gen\Random number Generator\obj\Debug\Random number Generator.csproj.CoreCompileInputs.cache
+C:\Users\feder\Source\Repos\Random_Gen\Random number Generator\obj\Debug\Random number Generator.exe
+C:\Users\feder\Source\Repos\Random_Gen\Random number Generator\obj\Debug\Random number Generator.pdb
