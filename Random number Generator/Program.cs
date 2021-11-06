@@ -11,19 +11,40 @@ namespace Random_number_Generator
         static void Main(string[] args)
         {
             Random rnd = new Random();
-            Console.WriteLine("Would you like for the program to be completely at random or for you to set a range \n[r]andom, [s]et");
-
-            char user_choice = Convert.ToChar(Console.ReadLine());
+            bool try_pap = false;
+            char user_choice;
+            do
+            {
+                if (try_pap)
+                {
+                    Console.WriteLine("This isn't a valid type");
+                }
+                Console.WriteLine("Would you like for the program to be completely at random or for you to set a range \n[r]andom, [s]et");
+            } while (try_pap = !char.TryParse(Console.ReadLine(), out user_choice));
 
             switch (user_choice)
             {
                 case 's':
                 case 'S':
                     int number_1, number_2;
-                    Console.WriteLine("Insert the first number ");
-                    number_1 = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Insert the second number ");
-                    number_2 = Convert.ToInt32(Console.ReadLine());
+                    
+                    do
+                    {
+                        if (try_pap)
+                        {
+                            Console.WriteLine("The number inserted isn't valid");
+                        }
+                        Console.WriteLine("Insert the first number ");
+                    } while (try_pap = !int.TryParse(Console.ReadLine(), out number_1));
+
+                    do
+                    {
+                        if (try_pap)
+                        {
+                            Console.WriteLine("The number inserted isn't valid");
+                        }
+                        Console.WriteLine("Insert the second number ");
+                    } while (try_pap = !int.TryParse(Console.ReadLine(), out number_2));
 
                     if (number_1 > number_2)
                     {
