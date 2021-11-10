@@ -51,9 +51,7 @@ namespace Random_number_Generator
                     Console.WriteLine($"The generated number is {rnd.Next()}");
                     break;
             }
-            #if DEBUG
-                Console.ReadKey();
-            #endif
+            Console.ReadKey();
         }
     }
 }
