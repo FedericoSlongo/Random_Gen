@@ -45,7 +45,8 @@ namespace Random_number_Generator
                     {
                         (number1, number2) = (number2, number1);
                     }
-                    Console.WriteLine($"The generated number is {rnd.Next(number1, number2+1)}");
+                    number2++;
+                    Console.WriteLine($"The generated number is {rnd.Next(number1, number2)}");
                     break;
                 case 'r':
                     Console.WriteLine($"The generated number is {rnd.Next()}");
