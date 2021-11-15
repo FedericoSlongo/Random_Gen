@@ -49,7 +49,13 @@ namespace Random_number_Generator
                     Console.WriteLine($"The generated number is {rnd.Next(number1, number2)}");
                     break;
                 case 'r':
-                    Console.WriteLine($"The generated number is {rnd.Next()}");
+                    number1 = rnd.Next();
+                    number2 = rnd.Next();
+                    if (number1 > number2)
+                    {
+                        (number1, number2) = (number2, number1);
+                    }
+                    Console.WriteLine($"The generated number is {rnd.Next(number1,number2)}");
                     break;
             }
             Console.ReadKey();
